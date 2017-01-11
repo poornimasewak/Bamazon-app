@@ -39,8 +39,6 @@ var buyItems = function () {
                 processOrder(answer.id, answer.unit, res[0].stock_quantity);
             }
         });
-
-
     });
 };
 
@@ -55,7 +53,6 @@ displayItems = function () {
         }
         buyItems();
     });
-
 };
 
 // Function to update the db and calculate the total cost to be paid by user
